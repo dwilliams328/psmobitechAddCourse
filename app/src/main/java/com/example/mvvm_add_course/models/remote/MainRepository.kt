@@ -6,5 +6,6 @@ class MainRepository(val apiHelper: ApiHelper) {
 
     suspend fun addCourse(addCourseRequest: AddCourseRequest) = apiHelper.addCourse(addCourseRequest)
 
+    suspend fun getAllCourses() = apiHelper.getAllCourses()
 
 }

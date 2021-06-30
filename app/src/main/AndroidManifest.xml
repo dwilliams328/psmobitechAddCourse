@@ -12,15 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MVVM_Add_Course">
         <activity android:name=".ui.add_course.AddCourseActivity">
+        </activity>
+        <activity android:name=".ui.view_courses.ViewCoursesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-        </activity>
-        <activity android:name=".ui.MainActivity">
-
         </activity>
     </application>
 
