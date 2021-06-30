@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MVVM_Add_Course</string>
+    <string name="course_title">Course Title</string>
+    <string name="course_description">Course Description</string>
+    <string name="course_fees">Course Fees</string>
+    <string name="add_new_course">Add New Course</string>
+</resources>
